@@ -1,3 +1,4 @@
+import calc
 from zipfile import ZipFile
 import os
 print("lovelace linux terminal\n[c]2024 GPL 3.0 Licence")
@@ -10,3 +11,5 @@ while run==True:
     if cmd=="unzip":
         path = input("enter path of zip ")
         ZipFile.extractall(path)
+    if cmd=="calc":
+        calc.calc()
