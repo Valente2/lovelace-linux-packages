@@ -7,11 +7,6 @@ run=True
 while run==True:
     print(name,"@",host," LLPT")
     cmd=input("$ ")
-    if cmd=="bash" or  "Batch":
-        run2=True
-        while run2==True:
-            cmd=input("# ")
-            os.system(cmd)
     if cmd=="unzip":
         path = input("enter path of zip ")
         ZipFile.extractall(path)
